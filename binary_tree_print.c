@@ -2,8 +2,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_print - Simple print (debug)
- * @tree: pointer to root
+ * binary_tree_print - Simple debug print of the tree
+ * @tree: Pointer to root
  */
 void binary_tree_print(const binary_tree_t *tree)
 {
