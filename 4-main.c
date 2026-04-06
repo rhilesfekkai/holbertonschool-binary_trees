@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include "binary_trees.h"
 
-/**
- * main - Test binary_tree_is_leaf function
- * Return: Always 0
- */
 int main(void)
 {
     binary_tree_t *root;
@@ -20,10 +16,8 @@ int main(void)
 
     ret = binary_tree_is_leaf(root);
     printf("Is %d a leaf: %d\n", root->n, ret);
-
     ret = binary_tree_is_leaf(root->right);
     printf("Is %d a leaf: %d\n", root->right->n, ret);
-
     ret = binary_tree_is_leaf(root->right->right);
     printf("Is %d a leaf: %d\n", root->right->right->n, ret);
 
